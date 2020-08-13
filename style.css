@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(37, 38, 39); font-size: 18px;
+    font-family: 'Handlee', cursive;
+
+}
+.postcard{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50% ,-50%);
+    padding: 15px;
+    font-family: 'Handlee', cursive;
+
+}
+.postcard-header{
+    overflow: hidden;
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+}
+.postcard-header img{
+    max-width: 60px;
+    float :right;
+}
+.postcard h1{
+    margin: 0;
+    font-family: 'Handlee', cursive;
+}
+.leftpart{
+    float: left;
+    width: 50%;
+    font-family: 'Handlee', cursive;
+}
+.rightpart{
+    float: right;
+    width: 50%;
+    font-family: 'Handlee', cursive;
+}
+.rightpart input{
+    display: row;
+    font-family: 'Handlee', cursive;
+}
+input{
+    font-size: 18px;
+}
+.postcard-body {
+    overflow: hidden;
+}
+.postcard-footer input[type=submit]{
+    background-color: rgb(208, 209, 209);
+    border: none;
+    font-family: 'Handlee', cursive;
+
+}
+.postcard-footer{
+    text-align: center;
+    padding: 10px;
+}
+.postcard-body input[type=text]{
+   
+    border-bottom: black;
+}
